@@ -71,6 +71,7 @@ function App() {
 
   useEffect(() => {
     fetchUserData()
+    // eslint-disable-next-line
   }, [])
 
   const onEdit = (editedUser) => {

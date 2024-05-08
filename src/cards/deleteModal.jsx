@@ -31,13 +31,3 @@ export default function DeleteModal({onDelete, showModal, setShowModal, selected
         </div>
     )
 }
-
-const inputFields = {
-    marginBottom: "10px",
-    border: "1px solid lightgrey",
-    borderRadius: "8px",
-    height: "35px",
-    outline: "none",
-    padding: "5px",
-    width: "100%"
-}
