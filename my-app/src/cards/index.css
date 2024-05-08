@@ -1,0 +1,30 @@
+.card-container {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    overflow: hidden;
+}
+.card-container .title-label {
+    font-size: 12px;
+    color: #c9c6c6;
+    font-weight: 800;
+    margin-right: 5px;
+}
+.card-container .title-content {
+    font-size: 13px;
+    color: #000;
+    font-weight: 800;
+}
+
+.card-container .edit-btn {
+    border: none;
+    background-color: orange;
+    font-size: 12px;
+    font-weight: 900;
+    color: #fff;
+}
+.card-container .delete-btn {
+    border: none;
+    background-color: #c10a0a;
+    font-size: 12px;
+    font-weight: 900;
+    color: #fff;
+}
