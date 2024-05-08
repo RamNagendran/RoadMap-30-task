@@ -4,8 +4,6 @@ import Button from 'react-bootstrap/Button';
 
 
 export default function DeleteModal({onDelete, showModal, setShowModal, selectedUser, loaders}) {
-    
-    console.log(selectedUser)
     return (
         <div>
             <Modal show={showModal.delete} onHide={() => setShowModal({...showModal, delete: false})}>
